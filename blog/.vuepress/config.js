@@ -2,7 +2,7 @@ module.exports = {
   theme: '@vuepress/blog',
   title: 'IT Solutions @ Goldenbridge',
   dest: 'docs/',
-  base: '/vue-press/',
+  // base: '/vue-press/',
   themeConfig: {
     dateFormat: 'YYYY年MM月DD日',
     nav: [
