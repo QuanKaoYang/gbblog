@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Get-ChildItem チートシート | IT Solutions @ Goldenbridge</title>
+    <meta name="description" content="PowerShellの入門向けで、なおかつ翻訳者にとってお世話になる頻度が高いのがこの”Get-ChildItem”。
+指定したフォルダにあるファイル・フォルダを表示してくれるコマンドレットです。
+いくつかのオプションがあるので見ていきましょう。
+エイリアス
+  gci
+  ls
+  dir
+オプション
+  * -Path  1つまたは複数の文字列 ...">
+    
+    
+    <link rel="preload" href="/vue-press/assets/css/0.styles.f710892a.css" as="style"><link rel="preload" href="/vue-press/assets/js/app.d524d28f.js" as="script"><link rel="preload" href="/vue-press/assets/js/4.01094572.js" as="script"><link rel="preload" href="/vue-press/assets/js/5.732d856c.js" as="script"><link rel="preload" href="/vue-press/assets/js/16.2b2be9ce.js" as="script"><link rel="prefetch" href="/vue-press/assets/js/1.08a88cff.js"><link rel="prefetch" href="/vue-press/assets/js/10.557149f4.js"><link rel="prefetch" href="/vue-press/assets/js/11.faafea84.js"><link rel="prefetch" href="/vue-press/assets/js/12.daf833f2.js"><link rel="prefetch" href="/vue-press/assets/js/13.c1493994.js"><link rel="prefetch" href="/vue-press/assets/js/14.00e4e02d.js"><link rel="prefetch" href="/vue-press/assets/js/15.746c20b8.js"><link rel="prefetch" href="/vue-press/assets/js/17.613fb12d.js"><link rel="prefetch" href="/vue-press/assets/js/18.7e006201.js"><link rel="prefetch" href="/vue-press/assets/js/6.11b1be78.js"><link rel="prefetch" href="/vue-press/assets/js/7.fb71af88.js"><link rel="prefetch" href="/vue-press/assets/js/8.d34bea80.js"><link rel="prefetch" href="/vue-press/assets/js/9.80e595d4.js"><link rel="prefetch" href="/vue-press/assets/js/vuejs-paginate.e1db4a3b.js">
+    <link rel="stylesheet" href="/vue-press/assets/css/0.styles.f710892a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div id="vuepress-theme-blog__global-layout"><section id="header-wrapper"><header id="header"><div class="header-wrapper"><div class="title"><a href="/vue-press/" class="nav-link home-link">IT Solutions @ Goldenbridge </a></div> <div class="header-right-wrap"><ul class="nav"><li class="nav-item"><a href="/vue-press/nlp/" class="nav-link">自然言語処理</a></li><li class="nav-item"><a href="/vue-press/ps/" class="nav-link router-link-active">PowerShell</a></li><li class="nav-item"><a href="/vue-press/tag/" class="nav-link">タグ一覧</a></li></ul> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></div></header></section> <div id="mobile-header"><div class="mobile-header-bar"><div class="mobile-header-title"><a href="/vue-press/" class="nav-link mobile-home-link">IT Solutions @ Goldenbridge </a> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div> <div class="mobile-menu-wrapper"><hr class="menu-divider"> <ul class="mobile-nav"><li class="mobile-nav-item"><a href="/vue-press/nlp/" class="nav-link">自然言語処理</a></li><li class="mobile-nav-item"><a href="/vue-press/ps/" class="nav-link router-link-active">PowerShell</a></li><li class="mobile-nav-item"><a href="/vue-press/tag/" class="nav-link">タグ一覧</a></li> <li class="mobile-nav-item"><!----></li></ul></div></div></div> <div class="content-wrapper"><div id="vuepress-theme-blog__post-layout"><div class="vuepress-blog-theme-content"><h1 class="post-title">Get-ChildItem チートシート</h1> <div class="post-meta"><!----> <!----> <ul class="post-meta-tags"><li class="post-tag" data-v-d832e844><a href="/vue-press/tag/コマンドレット" data-v-d832e844> コマンドレット </a></li><li class="post-tag" data-v-d832e844><a href="/vue-press/tag/チートシート" data-v-d832e844> チートシート </a></li></ul></div> <div class="content__default"><p>PowerShellの入門向けで、なおかつ翻訳者にとってお世話になる頻度が高いのがこの”Get-ChildItem”。
+指定したフォルダにあるファイル・フォルダを表示してくれるコマンドレットです。
+いくつかのオプションがあるので見ていきましょう。</p> <ul><li>エイリアス
+<ul><li>gci</li> <li>ls</li> <li>dir</li></ul></li> <li>オプション
+<ul><li><ul><li>-Path  1つまたは複数の文字列
+<ul><li>表示させたいパスを指定します。省略した場合は現在の場所にある項目を表示します。カンマ &quot;,&quot; で区切れば複数の場所を指定できます。</li></ul></li></ul></li> <li><ul><li>-Filter  1つの文字列
+<ul><li>指定した場所にあるファイルのうち、表示させたいものを絞り込みます。ワイルドカード文字として、任意の1文字 ”?&quot; と1以上の文字 ”<em>” が使えます。Wordファイルのみが欲しい場合は、”</em>.doc?” のように指定します。（2007以降のものしかないと分かっている場合は ”*.docx”でも可）</li></ul></li></ul></li> <li>-Recurse  なし
+<ul><li>フォルダ内の項目を再帰的に検索します。 ……と言ってもよく分からないと思います。 つまり、フォルダ内にフォルダがあった場合、そのフォルダの中身も表示対象とする、ということです。 フォルダが小分けにされている場合に力を発揮します。</li></ul></li> <li>-Name  なし
+<ul><li>このオプションを指定すると、ファイル名・フォルダ名のみが表示されるようになります。 権限や更新日時などの情報が不要なときに。</li></ul></li> <li>-File  なし
+<ul><li>このオプションを指定すると、ファイルのみが表示されるようになります（フォルダは表示されなくなります）。</li></ul></li> <li>-Directory  なし
+<ul><li>このオプションを指定すると、フォルダのみが表示されるようになります
+（ファイルは表示されなくなります）。</li></ul></li> <li>-Force  なし
+<ul><li>このオプションを指定すると、隠しフォルダ・隠しファイルも表示されるようになります。
+*はこの順で入力する場合に、オプションの指定がいらないものを示す</li></ul></li></ul></li></ul> <p>使用例
+フォルダ”1”と”2”にあるWordファイルをすべて表示する（名前のみ）</p> <div class="language-powershell extra-class"><pre class="language-powershell"><code><span class="token function">Get-ChildItem</span> 1<span class="token punctuation">,</span>2 <span class="token operator">*</span><span class="token punctuation">.</span>doc? <span class="token operator">-</span>Name
+</code></pre></div><p>サブフォルダも含めて、現在のフォルダにあるすべてのファイルを表示する</p> <div class="language-powershell extra-class"><pre class="language-powershell"><code><span class="token function">Get-ChildItem</span> <span class="token operator">-</span>Recurse <span class="token operator">-</span>File <span class="token operator">-</span>Force
+</code></pre></div><p>変数に格納した場合の戻り値は、オブジェクトの配列（Object[]）です。
+ファイルであればFileInfoオブジェクト、フォルダであればDirectoryInfoオブジェクトになっています。</p></div> <!----> <hr> <!----></div> <!----></div></div> <footer class="footer" data-v-582f9766><div class="footer-left-wrap" data-v-582f9766><ul class="contact" data-v-582f9766><li class="contact-item" data-v-582f9766><a href="http://www.goldenbridge2002.com" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-582f9766><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe" data-v-582f9766><circle cx="12" cy="12" r="10" data-v-582f9766></circle><line x1="2" y1="12" x2="22" y2="12" data-v-582f9766></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" data-v-582f9766></path></svg>
+          
+        </a></li></ul></div> <div class="footer-right-wrap" data-v-582f9766><ul class="copyright" data-v-582f9766><li class="copyright-item" data-v-582f9766><a href="https://policies.google.com/privacy?hl=en-US" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-582f9766>Privacy Policy</a></li><li class="copyright-item" data-v-582f9766><a href="http://www.goldenbridge2002.com" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-582f9766>Copyright © 2020 Goldenbridge Inc.</a></li></ul></div></footer></div><div class="global-ui"></div></div>
+    <script src="/vue-press/assets/js/app.d524d28f.js" defer></script><script src="/vue-press/assets/js/4.01094572.js" defer></script><script src="/vue-press/assets/js/5.732d856c.js" defer></script><script src="/vue-press/assets/js/16.2b2be9ce.js" defer></script>
+  </body>
+</html>
