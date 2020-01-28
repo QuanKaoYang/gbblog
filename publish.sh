@@ -1,5 +1,5 @@
 cd ./docs
 rm *.html
-rm -r assets nlp ps tag
+rm -r assets catovis exam nlp ps review tag tips vbajs
 cd ../
-cp ./output/* ./docs/
+cp -r ./output/* ./docs/
