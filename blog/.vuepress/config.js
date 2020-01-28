@@ -2,6 +2,14 @@ module.exports = {
   theme: '@vuepress/blog',
   title: 'IT Solutions @ Goldenbridge',
   dest: 'output/',
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-155988647-3'
+      },
+    ],
+  ],
   themeConfig: {
     dateFormat: 'YYYY年MM月DD日',
     nav: [
