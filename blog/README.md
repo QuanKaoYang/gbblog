@@ -2,7 +2,8 @@
 home: true
 ---
 
-# こちらITソリューション部 @ ゴールデンブリッジ
+# こちらITソリューション部
+## @ ゴールデンブリッジ
 翻訳会社 ゴールデンブリッジの中の人です。
 翻訳・チェックのかたわら、パソコンをいじっています。
 
@@ -15,3 +16,11 @@ home: true
 かなりニッチなPC操作や、専門である中国語関連のネタが多くなると思います。
 興味のある方も、そうでない方も、どうぞ温かい目で見守って、
 そしてお気に入り登録してください。
+
+## このサイトについて
+このサイトはOSSである[Vuepress](https://vuepress.vuejs.org/)と[Vuepress-plugin-blog](https://vuepress-plugin-blog.ulivz.com/)を使って作成しています。
+非常に有用なツールを公開していただいたこと、感謝申し上げます。
+
+ライセンスについて
+- [Vuepress ライセンス](https://github.com/vuejs/vuepress/blob/master/LICENSE)
+- [Vuepress-plugin-blog ライセンス](https://github.com/vuepressjs/vuepress-plugin-blog/blob/master/LICENSE)
