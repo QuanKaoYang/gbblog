@@ -5,9 +5,10 @@ date: 2020-01-01
 tags:
     - コマンドレット
     - 使用例
+author: S.I. @ Goldenbridge
+location: Osaka
 ---
 
-# ename-Itemで一括リネーム
 翻訳が終わったファイルには言語名や作業者名、作業済のマークなどをつけて別名保存することが多いと思います。
 
 しかしファイル数が10とか20とかあると、一つずつ手作業するのも面倒です。
@@ -75,3 +76,5 @@ Get-ChildItem -File | % {Rename-Item $_  ($_.Name.Replace($_.Extension, ("_Done"
 PowerShellで取得される結果はオブジェクトになっているため、.Nameや.Extensionのようにプロパティを参照することで、ほしい部分だけを簡単に取得できます。
 
 コマンドプロンプトよりずっと楽ですね。
+
+<link-to></link-to>

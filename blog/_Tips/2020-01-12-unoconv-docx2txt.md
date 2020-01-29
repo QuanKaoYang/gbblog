@@ -5,9 +5,10 @@ date: 2020-01-12
 tags: 
     - Linux
     - ファイル変換
+author: S.I. @ Goldenbridge
+location: Osaka
 ---
 
-# Wordファイルをtxtファイルに一括変換
 Wordで大量のファイルがあったとき、一括検索をしたくなることも多いでしょう。
 Tradosなどで処理することもできますが、もっと手軽な方法として、txtファイルに変換しておくというものがあります。
 txtファイルであれば、PowerShellを使って全文検索が可能です。
@@ -36,3 +37,5 @@ unoconvはLibreOfficeを利用しているとのことで、インストール�
 -fで指定するフォーマットには、PDFやHTML、RTFなどもあるようです。
 
 ファイル数が多いときは時間がかかるので、根気も必要です。
+
+<link-to></link-to>

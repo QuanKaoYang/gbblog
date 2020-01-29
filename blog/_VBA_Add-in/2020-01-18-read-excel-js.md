@@ -5,9 +5,9 @@ date: 2020-01-18
 tags: 
     - Javascript
     - Excel
+author: S.I. @ Goldenbridge
+location: Osaka
 ---
-
-# JavascriptでExcelを読み込む（ブラウザサイド）
 
 翻訳者の用語集と言えば、TBX形式もありますが、まだまだExcelも主流だと思います。
 
@@ -72,9 +72,9 @@ JavascriptでExcelファイルを読み込むには、まずJSZipを使って中
 
 しかもこのsharedString.xml、一つのセルの文字列情報について
 
-　1. フォントが1種類の場合は&lt;t&gt;タグ（textタグ？）
- 　2. フォントが途中で変わる場合は&lt;r&gt;タグ（runタグ？）の中の&lt;t&gt;タグ
- 　3. 発音情報が残っている場合は&lt;rPh&gt;（run phoneticタグ?）の中の&lt;t&gt;タグ
+ 1. フォントが1種類の場合は&lt;t&gt;タグ（textタグ？）
+ 2. フォントが途中で変わる場合は&lt;r&gt;タグ（runタグ？）の中の&lt;t&gt;タグ
+ 3. 発音情報が残っている場合は&lt;rPh&gt;（run phoneticタグ?）の中の&lt;t&gt;タグ
 
 というように、異なる階層のタグに分割して格納していて、しかも3の情報は不要なのです。
 
@@ -203,3 +203,4 @@ Promise地獄になるのがいやだったので、とりあえず用語集読�
 
 一体何個のPromiseオブジェクトになるかな～……
 
+<link-to></link-to>

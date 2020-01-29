@@ -6,9 +6,9 @@ tags:
     - Add-in
     - マニフェスト
     - 連載
+author: S.I. @ Goldenbridge
+location: Osaka
 ---
-
-# マニフェストファイルのサイドロード
 
 ”Office Add-in”をつくるにあたって、開発用に読み込むことは必須です。
 
@@ -134,3 +134,5 @@ https://docs.microsoft.com/ja-jp/office/dev/add-ins/testing/create-a-network-sha
 レジストリをいじるときは必ずバックアップを取りましょう！ **自己責任！**
 
 サイドロードとアンインストールを知って、より良いOffice Add-inライフを！
+
+<link-to></link-to>

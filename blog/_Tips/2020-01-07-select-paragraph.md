@@ -6,11 +6,13 @@ tags:
     - Word
     - 効率化
     - 超小ネタ
+author: S.I. @ Goldenbridge
+location: Osaka
 ---
 
-# Wordで段落ごとに選択
 あまり使われていないキーボード操作かもしれません。
 Wordでは、Ctrl+上or下で、段落単位で移動できます。
 
 Shiftと組み合わせれば、選択範囲を広げることができるので、段落単位でのコピペが多いときに重宝します。
 
+<link-to></link-to>

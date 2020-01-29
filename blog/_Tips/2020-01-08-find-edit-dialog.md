@@ -6,9 +6,9 @@ tags:
     - Word
     - ショートカット
     - 検索と置換
+author: S.I. @ Goldenbridge
+location: Osaka
 ---
-
-# Wordで検索ダイアログをショートカット化
 
 最近のWordでは、Ctrl + Fを「ナビゲーションウインドウ」というペインが左に表示されます。
 これが使いにくいのなんの！
@@ -31,3 +31,5 @@ tags:
 を探して、これにCtrl+Fを割り当てます。
 
 これでショートカットの登録が完了しました。
+
+<link-to></link-to>

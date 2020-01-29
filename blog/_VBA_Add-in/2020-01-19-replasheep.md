@@ -6,9 +6,9 @@ tags:
     - Add-in
     - ツール
     - 置換
+author: S.I. @ Goldenbridge
+location: Osaka
 ---
-
-# 一括置換ツールRepla-Sheep公開準備中
 
 翻訳者向けの一括置換ツールを作っています。Repla-Sheep（リプレイシープ）と呼んでいます。
 
@@ -33,3 +33,4 @@ Wordオンラインでも使えるという便利っぷり。
 
 乞うご期待！
 
+<link-to></link-to>

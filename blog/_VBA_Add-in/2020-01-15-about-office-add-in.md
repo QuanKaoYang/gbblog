@@ -5,9 +5,10 @@ date: 2020-01-15
 tags:
     - Add-in
     - 連載
+author: S.I. @ Goldenbridge
+location: Osaka
 ---
 
-# Office Add-inについて
 MS Officeを便利に動かすツールと言えばマクロ（VBA）。
 
 ところが、マクロとは一味違う”Office Add-in”というものがあることをご存知でしょうか。
@@ -63,3 +64,5 @@ Officeのストアから導入することができます。
 私が個人用つくっている、文字変換や簡易CATツールなどを紹介していこうと思います。
 
 あと、ハマりどころも解決メモを残したい（本当に情報が少ない）。
+
+<link-to></link-to>

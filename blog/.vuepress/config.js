@@ -1,6 +1,11 @@
 module.exports = {
   theme: '@vuepress/blog',
-  title: 'IT Solutions @ Goldenbridge',
+  title: 'ITブログ @ GB',
+  description: 'ゴールデンブリッジのITやアプリケーション、各種ソフトウェア操作のノウハウを集めています',
+  head: [
+    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/yakuhanjp@3.0.0/dist/css/yakuhanrp.min.css'}],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/earlyaccess/mplus1p.css' }]
+  ],
   dest: 'output/',
   plugins: [
     [

@@ -8,9 +8,11 @@ home: true
 翻訳・チェックのかたわら、パソコンをいじっています。
 
 このサイトには、翻訳・チェックする過程で、中の人が
+
 - 試したこと
 - 学んだこと
 - 作ったもの
+
 などを書き込んでいきます。
 
 かなりニッチなPC操作や、専門である中国語関連のネタが多くなると思います。
@@ -19,7 +21,8 @@ home: true
 
 ## このサイトについて
 このサイトはOSSである[Vuepress](https://vuepress.vuejs.org/)と[Vuepress-plugin-blog](https://vuepress-plugin-blog.ulivz.com/)を使って作成しています。
-非常に有用なツールを公開していただいたこと、感謝申し上げます。
+
+非常に有用なツールを公開していただいたこと、感謝するとともに、弊社もOSSの発展に微力ながら貢献していきたいと思います。
 
 ライセンスについて
 - [Vuepress ライセンス](https://github.com/vuejs/vuepress/blob/master/LICENSE)
