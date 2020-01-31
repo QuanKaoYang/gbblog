@@ -6,7 +6,7 @@ tags:
     - Add-in
     - ツール
     - 置換
-author: 電氣羊@ Goldenbridge
+author: 電氣羊 @ Goldenbridge
 location: Osaka
 ---
 
@@ -14,6 +14,7 @@ location: Osaka
 
 まずはデモ動画をどうぞ。
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yopFu5W_BSg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 これまでマクロでも作っていたのですが、Excelを開いてファイルの場所を調整して……といった手間が必要でした。今開いているファイルについてだけ、ざざっと変換したいという（自分の）ニーズを満たすためのツールです。
 

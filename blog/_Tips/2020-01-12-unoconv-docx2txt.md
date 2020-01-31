@@ -5,7 +5,7 @@ date: 2020-01-12
 tags: 
     - Linux
     - ファイル変換
-author: 電氣羊@ Goldenbridge
+author: 電氣羊 @ Goldenbridge
 location: Osaka
 ---
 

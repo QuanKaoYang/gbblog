@@ -6,7 +6,7 @@ tags:
     - Word
     - マクロ
     - 効率化
-author: 電氣羊@ Goldenbridge
+author: 電氣羊 @ Goldenbridge
 location: Osaka
 ---
 
