@@ -23,7 +23,7 @@ module.exports = {
       { text: 'PowerShell', link: '/ps/', },
       { text: '自然言語処理', link: '/nlp/', },
       { text: '実験', link: '/exam/', },
-      { text: 'レビュー', link: '/review/', },
+      { text: 'コラム', link: '/column/', },
       { text: 'CATOVIS', link: '/catovis/', },
       { text: 'タグ一覧', link: '/tag/', },
     ],
@@ -33,8 +33,8 @@ module.exports = {
       ],
       copyright: [
         {
-          text: 'Privacy Policy',
-          link: 'https://policies.google.com/privacy?hl=en-US',
+          text: 'プライバシーポリシー',
+          link: '/privacy',
         },
         {
           text: 'Copyright © 2020 Goldenbridge Inc.',
@@ -91,10 +91,10 @@ module.exports = {
         },
       },
       {
-        id: 'rev',
-        dirname: '_Review',
-        path: '/review/',
-        itemPermalink: '/review/:year/:month/:day/:slug',
+        id: 'column',
+        dirname: '_column',
+        path: '/column/',
+        itemPermalink: '/column/:year/:month/:day/:slug',
         pagination: {
           lengthPerPage: 5,
           prevText:'次', // Text for previous links.

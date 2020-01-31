@@ -6,7 +6,7 @@ tags:
     - Word
     - ショートカット
     - 検索と置換
-author: S.I. @ Goldenbridge
+author: 電氣羊@ Goldenbridge
 location: Osaka
 ---
 

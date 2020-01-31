@@ -27,3 +27,18 @@ home: true
 ライセンスについて
 - [Vuepress ライセンス](https://github.com/vuejs/vuepress/blob/master/LICENSE)
 - [Vuepress-plugin-blog ライセンス](https://github.com/vuepressjs/vuepress-plugin-blog/blob/master/LICENSE)
+
+## 運営
+![img](logo_header.png)
+
+[Webサイト](http://goldenbridge2002.com)
+
+| 会社名 | 株式会社ゴールデンブリッジ |
+| --- | :--- |
+| 事業内容 | 多言語通訳翻訳<br />インバウンド交流事業（日中ビジネス交流プログラム、医療美容ツアー）<br />有料職業紹介、その他上記に付随するサービス |
+| 設立 | 2002年 8月 |
+| 所在地 | 【大阪本社】<br />〒550-0005　大阪市西区西本町1丁目7番7号CE西本町ビル801号室<br />【東京オフィス】<br />〒160-0023　東京都新宿区西新宿1丁目5番11号　新宿三葉ビル5階　505 |
+
+## 著者
+| 電氣羊<br />![img](DianziYang.png) | 羊と羊毛と羊肉が大好き。<br />プログラマの三大美徳「怠惰」「短気」「傲慢」に感銘を受け、プログラミングを学ぶ。<br />「楽＝高品質」を掲げ、今日も楽をするために苦労している。 |
+|---|:---|

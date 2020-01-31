@@ -4,7 +4,7 @@ slug: catovis_001
 date: 2019-12-31
 tags:
     - CATOVIS
-author: S.I. @ Goldenbridge
+author: 電氣羊@ Goldenbridge
 location: Osaka
 ---
 

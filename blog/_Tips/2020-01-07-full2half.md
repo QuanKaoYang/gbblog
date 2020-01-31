@@ -6,7 +6,7 @@ tags:
     - Word
     - 検索と置換
     - 特殊文字
-author: S.I. @ Goldenbridge
+author: 電氣羊@ Goldenbridge
 location: Osaka
 ---
 

@@ -4,7 +4,7 @@ slug: tips_007
 date: 2020-01-13
 tags:
     - Outlook
-author: S.I. @ Goldenbridge
+author: 電氣羊@ Goldenbridge
 location: Osaka
 ---
 

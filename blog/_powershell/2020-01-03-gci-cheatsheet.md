@@ -5,7 +5,7 @@ date: 2020-01-03
 tags:
   - コマンドレット
   - チートシート
-author: S.I. @ Goldenbridge
+author: 電氣羊@ Goldenbridge
 location: Osaka
 ---
 

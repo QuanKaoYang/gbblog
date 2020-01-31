@@ -6,7 +6,7 @@ tags:
     - Word
     - 効率化
     - 超小ネタ
-author: S.I. @ Goldenbridge
+author: 電氣羊@ Goldenbridge
 location: Osaka
 ---
 

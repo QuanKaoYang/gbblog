@@ -3,7 +3,7 @@ title: 準備中
 slug: exam_001
 date: 2019-12-31
 tags: 
-author: S.I. @ Goldenbridge
+author: 電氣羊@ Goldenbridge
 location: Osaka
 ---
 準備中です。

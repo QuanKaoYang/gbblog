@@ -6,7 +6,7 @@ tags:
     - Word
     - 検索と置換
     - ワイルドカード
-author: S.I. @ Goldenbridge
+author: 電氣羊@ Goldenbridge
 location: Osaka
 ---
 

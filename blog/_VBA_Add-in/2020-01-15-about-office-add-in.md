@@ -5,7 +5,7 @@ date: 2020-01-15
 tags:
     - Add-in
     - 連載
-author: S.I. @ Goldenbridge
+author: 電氣羊@ Goldenbridge
 location: Osaka
 ---
 
