@@ -18,12 +18,8 @@ module.exports = {
   themeConfig: {
     dateFormat: 'YYYY年MM月DD日',
     nav: [
-      { text: '小ネタ・小技', link: '/tips/', },
-      { text: 'VBA & Add-in', link: '/vbajs/', },
-      { text: 'PowerShell', link: '/ps/', },
-      { text: '自然言語処理', link: '/nlp/', },
-      { text: '実験', link: '/exam/', },
-      { text: 'コラム', link: '/column/', },
+      { text: '小ネタ・小技', link: '/column/', },
+      { text: 'プログラミング', link: '/pg/', },
       { text: 'CATOVIS', link: '/catovis/', },
       { text: 'タグ一覧', link: '/tag/', },
     ],
@@ -47,50 +43,6 @@ module.exports = {
     smoothScroll: true,
     directories: [
       {
-        id: 'tips',
-        dirname: '_Tips',
-        path: '/tips/',
-        itemPermalink: '/tips/:year/:month/:day/:slug',
-        pagination: {
-          lengthPerPage: 5,
-          prevText:'次', // Text for previous links.
-          nextText:'前', // Text for next links.
-        },
-      },
-      {
-        id: 'vbajs',
-        dirname: '_VBA_Add-in',
-        path: '/vbajs/',
-        itemPermalink: '/vbajs/:year/:month/:day/:slug',
-        pagination: {
-          lengthPerPage: 5,
-          prevText:'次', // Text for previous links.
-          nextText:'前', // Text for next links.
-        },
-      },
-      {
-        id: 'ps',
-        dirname: '_powershell',
-        path: '/ps/',
-        itemPermalink: '/ps/:year/:month/:day/:slug',
-        pagination: {
-          lengthPerPage: 5,
-          prevText:'次', // Text for previous links.
-          nextText:'前', // Text for next links.
-        },
-      },
-      {
-        id: 'nlp',
-        dirname: '_nlp',
-        path: '/nlp/',
-        itemPermalink: '/nlp/:year/:month/:day/:slug',
-        pagination: {
-          lengthPerPage: 5,
-          prevText:'次', // Text for previous links.
-          nextText:'前', // Text for next links.
-        },
-      },
-      {
         id: 'column',
         dirname: '_column',
         path: '/column/',
@@ -102,10 +54,10 @@ module.exports = {
         },
       },
       {
-        id: 'exam',
-        dirname: '_exam',
-        path: '/exam/',
-        itemPermalink: '/exam/:year/:month/:day/:slug',
+        id: 'pg',
+        dirname: '_pg',
+        path: '/pg/',
+        itemPermalink: '/pg/:year/:month/:day/:slug',
         pagination: {
           lengthPerPage: 5,
           prevText:'次', // Text for previous links.

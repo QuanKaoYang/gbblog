@@ -17,13 +17,14 @@ module.exports = {
 <style>
 div#linkToGB {
     font-weight: bold;
+    font-size: 0.85rem;
     margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
     width: 75%;
     border-style: solid;
-    border-color: forestgreen;
+    border-color: #3CA949;
     border-width: 2px;
     text-align: center;
 }
