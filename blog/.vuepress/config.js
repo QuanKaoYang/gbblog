@@ -14,9 +14,16 @@ module.exports = {
         'ga': 'UA-155988647-3'
       },
     ],
+    [
+      'sitemap', 
+      {
+        hostname: 'https://www.794562.xyz/'
+      }
+    ],
   ],
   themeConfig: {
     dateFormat: 'YYYY年MM月DD日',
+    sitemap: true,
     nav: [
       { text: '小ネタ・小技', link: '/column/', },
       { text: 'プログラミング', link: '/pg/', },
