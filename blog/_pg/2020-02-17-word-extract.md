@@ -28,7 +28,7 @@ location: Osaka
 
 ## JavaScriptを使っちゃう
 
-以前、[ExcelをJavaScriptで読み込むスクリプト](./2020/01/18/read-excel-js/)を紹介しました。これを応用すれば、WordもPowerPointもテキスト部分だけを抜き出すことができそうです。
+以前、[ExcelをJavaScriptで読み込むスクリプト](../pg/2020/01/18/read-excel-js/)を紹介しました。これを応用すれば、WordもPowerPointもテキスト部分だけを抜き出すことができそうです。
 
 ところが、なんとまだ”doc”や”ｘｌｓ”といった古いフォーマットで原稿を送ってくるお客様も、まだ相当数いらっしゃるのです。
 
