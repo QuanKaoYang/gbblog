@@ -7,6 +7,7 @@ module.exports = {
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/earlyaccess/mplus1p.css' }]
   ],
   dest: 'output/',
+  port: 5000,
   plugins: [
     [
       '@vuepress/google-analytics',
