@@ -19,6 +19,8 @@ home: true
 興味のある方も、そうでない方も、どうぞ温かい目で見守って、
 そしてお気に入り登録してください。
 
+<timeline-box ></timeline-box>
+
 ## このサイトについて
 このサイトはOSSである[Vuepress](https://vuepress.vuejs.org/)と[Vuepress-plugin-blog](https://vuepress-plugin-blog.ulivz.com/)を使って作成しています。
 
