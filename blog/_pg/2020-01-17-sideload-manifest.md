@@ -118,9 +118,9 @@ https://docs.microsoft.com/ja-jp/office/dev/add-ins/testing/create-a-network-sha
 
 最後に、レジストリをいじる方法も紹介します。
 
- 前回、少し触れましたが、CLIからの読み込みは、どうやらレジストリを変更している個所があるようです。
+前回、少し触れましたが、CLIからの読み込みは、どうやらレジストリを変更している個所があるようです。
 
- その設定は、取っておいたエラー出力を見てみましょう。
+その設定は、取っておいたエラー出力を見てみましょう。
 
 ```powershell
 "C:\My Office Add-in\manifest.xml" in key "HKCU\SOFTWARE\Microsoft\Office\16.0\Wef\Developer".
@@ -128,12 +128,19 @@ https://docs.microsoft.com/ja-jp/office/dev/add-ins/testing/create-a-network-sha
 
 ですね。
 
- このレジストリキーに、マニフェストのファイルパスを設定してやれば、Wordを立ち上げるたびにマニフェストを読み込んでくれます。
+このレジストリキーに、マニフェストのファイルパスを設定してやれば、Wordを立ち上げるたびにマニフェストを読み込んでくれます。
 
- 
 
 レジストリをいじるときは必ずバックアップを取りましょう！ **自己責任！**
 
 サイドロードとアンインストールを知って、より良いOffice Add-inライフを！
+
+<hr />
+JavaScript 至極の入門書！すぐに動かして楽しめるVue/Nuxtもオススメ！
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=goldenbridg09-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4048930737&linkId=ebcbc825de19292c3e128eb6053cca6f&bc1=000000&lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr">
+</iframe>
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=goldenbridg09-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=B07X6F1C2P&linkId=5463808299d955a33915eddbd95246f7&bc1=000000&lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr">
+</iframe>
 
 <link-to></link-to>
