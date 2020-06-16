@@ -54,6 +54,6 @@ location: Osaka
 
 ぜひ、お試しあれ！
 
-<iframe src="https://rcm-fe.amazon-adsystem.com/e/cm?o=9&p=12&l=ur1&category=musicunlimited&banner=145C9T3K8K0AZHVBRHG2&f=ifr&linkID=0603ffea488d8f3b5a69918caa6e8e5f&t=goldenbridg09-22&tracking_id=goldenbridg09-22" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+<iframe src="https://rcm-fe.amazon-adsystem.com/e/cm?o=9&p=12&l=ur1&category=audible&banner=04TW4TSNDNB96FMCBT82&f=ifr&linkID=faa8bbe97dd893a353431f67f901efd3&t=goldenbridg09-22&tracking_id=goldenbridg09-22" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
 
 <link-to></link-to>

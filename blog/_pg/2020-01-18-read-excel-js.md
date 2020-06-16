@@ -1,9 +1,9 @@
 ---
-title: JavascriptでExcelを読み込む（ブラウザサイド）
+title: JavaScriptでExcelを読み込む（ブラウザサイド）
 slug: js_005
 date: 2020-01-18
 tags: 
-    - Javascript
+    - JavaScript
     - Excel
 author: 電氣羊 @ Goldenbridge
 location: Osaka
@@ -11,7 +11,7 @@ location: Osaka
 
 翻訳者の用語集と言えば、TBX形式もありますが、まだまだExcelも主流だと思います。
 
-このExcelファイルを何とかJavascriptを使って処理できないか、考えてみました。
+このExcelファイルを何とかJavaScriptを使って処理できないか、考えてみました。
 
 簡単に実行できるよう、サーバーサイドはつくりません。
 
@@ -56,7 +56,7 @@ Office2007以降に採用されたdocx/xlsx/pptxファイルは、以前のも�
   - styles.xml
   - workbook.xml
 
-JavascriptでExcelファイルを読み込むには、まずJSZipを使って中身を読み込みつつ、XMLをパースし、さらにノードをたどったり正規表現を使ったりしながら、ほしい情報だけをピックアップすればいいわけです。
+JavaScriptでExcelファイルを読み込むには、まずJSZipを使って中身を読み込みつつ、XMLをパースし、さらにノードをたどったり正規表現を使ったりしながら、ほしい情報だけをピックアップすればいいわけです。
 
 ## ExcelのXML構造
 
@@ -116,7 +116,7 @@ JavascriptでExcelファイルを読み込むには、まずJSZipを使って中
 <html>
 ```
 
-```Javascript
+```JavaScript
 async function xlsxReader(event) {
     console.log("read start");
     const xlsxFile = event.target.files[0];
@@ -185,7 +185,7 @@ Promise地獄になるのがいやだったので、とりあえず用語集読�
 
  出力も面倒だったので、とりあえずコンソールに最初のペアだけを表示させています。
 
-これでひとまず、ExcelからJavascriptで扱えるデータにするという目的は達成しました。
+これでひとまず、ExcelからJavaScriptで扱えるデータにするという目的は達成しました。
 
 ### テキストボックス（シェイプ）
 
@@ -210,6 +210,6 @@ JavaScript 至極の入門書！すぐに動かして楽しめるVue/Nuxtもオ�
 </iframe>
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=goldenbridg09-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=B07X6F1C2P&linkId=5463808299d955a33915eddbd95246f7&bc1=000000&lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr">
 </iframe>
-<iframe src="https://rcm-fe.amazon-adsystem.com/e/cm?o=9&p=12&l=ur1&category=musicunlimited&banner=145C9T3K8K0AZHVBRHG2&f=ifr&linkID=0603ffea488d8f3b5a69918caa6e8e5f&t=goldenbridg09-22&tracking_id=goldenbridg09-22" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+<iframe src="https://rcm-fe.amazon-adsystem.com/e/cm?o=9&p=12&l=ur1&category=audible&banner=04TW4TSNDNB96FMCBT82&f=ifr&linkID=faa8bbe97dd893a353431f67f901efd3&t=goldenbridg09-22&tracking_id=goldenbridg09-22" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
 
 <link-to></link-to>
