@@ -135,7 +135,7 @@ https://docs.microsoft.com/ja-jp/office/dev/add-ins/testing/create-a-network-sha
 
 サイドロードとアンインストールを知って、より良いOffice Add-inライフを！
 
-<hr />
+#### PR
 JavaScript 至極の入門書！すぐに動かして楽しめるVue/Nuxtもオススメ！
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=goldenbridg09-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4048930737&linkId=ebcbc825de19292c3e128eb6053cca6f&bc1=000000&lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr">
