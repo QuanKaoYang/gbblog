@@ -9,7 +9,7 @@ location: Osaka
 ---
 
 オリジナルCATツール「CATOVIS」の0.4.6版を公開いたしました。
-詳細は[こちら](https://quankaoyang.github.io/catovis-docs/)
+詳細は[こちら](https://man.catovis.com/)
 
 今回のアップデートは主にWord側の操作性向上に主眼を置いています。
 

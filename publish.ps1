@@ -1,7 +1,7 @@
-cd ./docs
-rm index.html
-rm 404.html
-rm -r assets,catovis,pg,column,tag,pict
-cd ../
-cp -r ./output/* ./docs/
-echo "Publish files are prepared. Now to git push"
+Set-Location ./docs
+Remove-Item index.html
+Remove-Item 404.html
+Remove-Item -r assets,catovis,pg,column,tag,pict
+Set-Location ../
+Copy-Item -r ./output/* ./docs/
+Write-Host "Publish files are prepared. Now to git push"

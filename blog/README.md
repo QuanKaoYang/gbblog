@@ -19,6 +19,10 @@ home: true
 興味のある方も、そうでない方も、どうぞ温かい目で見守って、
 そしてお気に入り登録してください。
 
+最新記事はこちら(2020年9月15日)
+
+[翻訳作業支援用Webアプリ CATOVIS SUITE公開中！](./catovis/2020/09/15/catovis-suite/)
+
 <timeline-box ></timeline-box>
 
 ## このサイトについて

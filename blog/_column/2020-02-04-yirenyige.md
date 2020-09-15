@@ -54,6 +54,10 @@ location: Osaka
 
 ぜひ、お試しあれ！
 
-<iframe src="https://rcm-fe.amazon-adsystem.com/e/cm?o=9&p=12&l=ur1&category=audible&banner=04TW4TSNDNB96FMCBT82&f=ifr&linkID=faa8bbe97dd893a353431f67f901efd3&t=goldenbridg09-22&tracking_id=goldenbridg09-22" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+#### PR
+<ad-text ad="regexp"></ad-text>
+
+<ad-link ad="regexp"></ad-link>
+<ad-link-box ad="audible"></ad-link-box>
 
 <link-to></link-to>

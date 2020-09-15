@@ -12,7 +12,7 @@ location: Osaka
 
 TradosやMemsourceといった大手ベンダーでは手の届かない、ややニッチなツールを目指しています。
 
-詳細は[こちら](https://quankaoyang.github.io/catovis-docs/)
+詳細は[こちら](https://man.catovis.com/)
 
 コンセプトは「WYSIWYG」であること
 
