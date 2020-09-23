@@ -3,8 +3,14 @@ module.exports = {
   title: 'ITブログ @ GB',
   description: 'ゴールデンブリッジのITやアプリケーション、各種ソフトウェア操作のノウハウを集めています',
   head: [
-    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/yakuhanjp@3.0.0/dist/css/yakuhanrp.min.css'}],
-    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/earlyaccess/mplus1p.css' }]
+    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/yakuhanjp@3.0.0/dist/css/yakuhanrp.min.css' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/earlyaccess/mplus1p.css' }],
+    ['script',
+      {
+        'data-ad-client': 'ca-pub-8191791677165952',
+        'async src': 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+      }
+    ],
   ],
   dest: 'output/',
   port: 5000,
@@ -16,7 +22,7 @@ module.exports = {
       },
     ],
     [
-      'sitemap', 
+      'sitemap',
       {
         hostname: 'https://www.794562.xyz/'
       }
@@ -46,8 +52,8 @@ module.exports = {
         },
       ],
     },
-    lengthPerPage:'1', // Maximum number of posts per page.
-    layout:'Pagination', // Layout for pagination page
+    lengthPerPage: '1', // Maximum number of posts per page.
+    layout: 'Pagination', // Layout for pagination page
     smoothScroll: true,
     directories: [
       {
@@ -57,8 +63,8 @@ module.exports = {
         itemPermalink: '/column/:year/:month/:day/:slug',
         pagination: {
           lengthPerPage: 5,
-          prevText:'次', // Text for previous links.
-          nextText:'前', // Text for next links.
+          prevText: '次', // Text for previous links.
+          nextText: '前', // Text for next links.
         },
       },
       {
@@ -68,8 +74,8 @@ module.exports = {
         itemPermalink: '/pg/:year/:month/:day/:slug',
         pagination: {
           lengthPerPage: 5,
-          prevText:'次', // Text for previous links.
-          nextText:'前', // Text for next links.
+          prevText: '次', // Text for previous links.
+          nextText: '前', // Text for next links.
         },
       },
       {
@@ -79,8 +85,8 @@ module.exports = {
         itemPermalink: '/catovis/:year/:month/:day/:slug',
         pagination: {
           lengthPerPage: 5,
-          prevText:'次', // Text for previous links.
-          nextText:'前', // Text for next links.
+          prevText: '次', // Text for previous links.
+          nextText: '前', // Text for next links.
         },
       },
     ]
