@@ -12,6 +12,12 @@ module.exports = {
       }
     ],
   ],
+  // body: [
+  //   ['script',
+  //     {},
+  //     '(adsbygoogle = window.adsbygoogle || []).push({});'
+  //   ]
+  // ],
   dest: 'output/',
   port: 5000,
   plugins: [
