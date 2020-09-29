@@ -21,8 +21,14 @@ home: true
 
 最新記事はこちら(2020年9月28日)
 
-<!-- [翻訳作業支援用Webアプリ CATOVIS SUITE公開中！](./catovis/2020/09/15/catovis-suite/) -->
-[翻訳プロセスオートメーションについて本気で考えてみた（その１）](./column/2020/09/28/tpa/)
+- 2020/9/15
+  [翻訳作業支援用Webアプリ CATOVIS SUITE公開中！](./catovis/2020/09/15/catovis-suite/)
+
+- 2020/9/28
+  [翻訳プロセスオートメーションについて本気で考えてみた（その１）](./column/2020/09/28/tpa/)
+
+- 2020/9/29
+  [AmiVoiceで音声認識からSRTファイル作成まで](./pg/2020/09/29/amivoice-srt/)
 
 
 <timeline-box ></timeline-box>
