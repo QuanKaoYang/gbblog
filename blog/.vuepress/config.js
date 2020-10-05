@@ -45,16 +45,25 @@ module.exports = {
     ],
     footer: {
       contact: [
-        { type: "web", link: "http://www.goldenbridge2002.com" }
+        { type: "web",
+          link: "http://www.goldenbridge2002.com"
+        },
+        {
+
+        }
       ],
       copyright: [
+        {
+          text: 'CATOVIS ～翻訳にもっと機械の力を',
+          link: 'https://catovis.com',
+        },
         {
           text: 'プライバシーポリシー',
           link: '/privacy',
         },
         {
           text: 'Copyright © 2020 Goldenbridge Inc.',
-          link: 'http://www.goldenbridge2002.com',
+          link: 'https://www.goldenbridge2002.com',
         },
       ],
     },

@@ -7203,11 +7203,6 @@ vue-feather-icons@^4.21.0:
   dependencies:
     babel-helper-vue-jsx-merge-props "^2.0.2"
 
-vue-google-adsense@^1.8.3:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/vue-google-adsense/-/vue-google-adsense-1.8.3.tgz#c7f96e0a6db7484ac9857b8c3196d3c907d23e7a"
-  integrity sha512-+2Ofu0p4hjJuvbilswnarrFc+F4Tqd7IXbvsSzFY82r8p6TT4Hb+5nokrous0XXanEk5IKJIjE9ApD2NPsS8bg==
-
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"

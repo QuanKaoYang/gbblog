@@ -1,5 +1,11 @@
 <template>
-    <p>{{ links[ad] }}</p>
+    <div>
+        <p>翻訳支援ツール CATOVIS SUITE 無料公開中</p>
+        <a href="https://catovis.com" target="_blank">
+            <img src="/catovis-logo-with-title.png" width="480px" />
+        </a>
+        <p>{{ links[ad] }}</p>
+    </div>
 </template>
 
 <script>
