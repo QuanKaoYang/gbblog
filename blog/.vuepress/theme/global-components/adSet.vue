@@ -9,9 +9,9 @@
 </template>
 
 <script>
-import adText from '../components/adText.vue'
-import adLink from '../components/adLink.vue'
-import adLinkBox from '../components/adLinkBox.vue'
+import adText from './adText.vue'
+import adLink from './adLink.vue'
+import adLinkBox from './adLinkBox.vue'
 
 export default {
   props: ['ad', 'ad2'],
