@@ -125,9 +125,6 @@ Excelでは
 さすがですね！
 
 #### PR
-<ad-text ad="excel"></ad-text>
-
-<ad-link ad="excel"></ad-link>
-<ad-link-box ad="audible"></ad-link-box>
+<ad-set :ad="'excel'" />
 
 <link-to></link-to>

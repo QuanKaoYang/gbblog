@@ -17,9 +17,6 @@ location: Osaka
 これだけで全角モードでも半角スペースが打ち込めます。
 
 #### PR
-<ad-text ad="word"></ad-text>
-
-<ad-link ad="word"></ad-link>
-<ad-link-box ad="audible"></ad-link-box>
+<ad-set :ad="'word'" />
 
 <link-to></link-to>

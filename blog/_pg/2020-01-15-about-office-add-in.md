@@ -66,10 +66,6 @@ Officeのストアから導入することができます。
 あと、ハマりどころも解決メモを残したい（本当に情報が少ない）。
 
 #### PR
-<ad-text ad="js"></ad-text>
-
-<ad-link ad="js"></ad-link>
-<ad-link ad="vue"></ad-link>
-<ad-link-box ad="audible"></ad-link-box>
+<ad-set :ad="'js'" :ad2="'vue'"/>
 
 <link-to></link-to>

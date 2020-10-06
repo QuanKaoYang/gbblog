@@ -102,7 +102,7 @@ $wd = $null
 [System.GC]::Collect()
 ```
 
-PowerShellはなんと、***New-Item -ComObject*** とするだけでCOMオブジェクトも扱うことができるようです。
+PowerShellはなんと、***New-Object -ComObject*** とするだけでCOMオブジェクトも扱うことができるようです。
 
 Wordオブジェクトを作成し、Documentsオブジェクトとして開く。直下にあるRangeオブジェクトにテキストが入っていました。以下、時間のかかったところ。
 
@@ -127,9 +127,6 @@ Wordオブジェクトを作成し、Documentsオブジェクトとして開く�
 などなど
 
 #### PR
-<ad-text ad="ps"></ad-text>
-
-<ad-link ad="ps"></ad-link>
-<ad-link-box ad="audible"></ad-link-box>
+<ad-set :ad="'ps'" />
 
 <link-to></link-to>

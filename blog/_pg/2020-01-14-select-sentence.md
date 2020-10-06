@@ -159,9 +159,6 @@ End sub
 このマクロを応用すれば、「１つ前の文」というショートカットも作ることができます。
 
 #### PR
-<ad-text ad="word"></ad-text>
-
-<ad-link ad="word"></ad-link>
-<ad-link-box ad="audible"></ad-link-box>
+<ad-set :ad="'word'" />
 
 <link-to></link-to>

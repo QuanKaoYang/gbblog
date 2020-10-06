@@ -39,9 +39,6 @@ unoconvはLibreOfficeを利用しているとのことで、インストール�
 ファイル数が多いときは時間がかかるので、根気も必要です。
 
 #### PR
-<ad-text ad="word"></ad-text>
-
-<ad-link ad="word"></ad-link>
-<ad-link-box ad="audible"></ad-link-box>
+<ad-set :ad="'word'" />
 
 <link-to></link-to>

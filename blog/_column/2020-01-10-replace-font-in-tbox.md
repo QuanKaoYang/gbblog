@@ -28,9 +28,6 @@ Wordのテキストボックス内の文字は、単純にCtrl + Aで本文を�
 実行前に必ず保存するようにしましょう。
 
 #### PR
-<ad-text ad="word"></ad-text>
-
-<ad-link ad="word"></ad-link>
-<ad-link-box ad="audible"></ad-link-box>
+<ad-set :ad="'word'" />
 
 <link-to></link-to>

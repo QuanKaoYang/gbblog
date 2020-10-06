@@ -33,9 +33,6 @@ location: Osaka
 これでショートカットの登録が完了しました。
 
 #### PR
-<ad-text ad="word"></ad-text>
-
-<ad-link ad="word"></ad-link>
-<ad-link-box ad="audible"></ad-link-box>
+<ad-set :ad="'word'" />
 
 <link-to></link-to>

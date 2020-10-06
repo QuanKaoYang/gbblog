@@ -35,10 +35,6 @@ Wordオンラインでも使えるという便利っぷり。
 乞うご期待！
 
 #### PR
-<ad-text ad="js"></ad-text>
-
-<ad-link ad="js"></ad-link>
-<ad-link ad="vue"></ad-link>
-<ad-link-box ad="audible"></ad-link-box>
+<ad-set :ad="'js'" :ad2="'vue'"/>
 
 <link-to></link-to>

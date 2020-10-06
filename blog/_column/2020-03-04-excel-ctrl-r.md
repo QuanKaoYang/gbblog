@@ -47,9 +47,6 @@ Excelのフィルタはとても便利です。翻訳業務においても、「
 ぜひ活用してみてください。
 
 #### PR
-<ad-text ad="excel"></ad-text>
-
-<ad-link ad="excel"></ad-link>
-<ad-link-box ad="audible"></ad-link-box>
+<ad-set :ad="'excel'" />
 
 <link-to></link-to>

@@ -21,9 +21,6 @@ INetCacheは（隠しファイルを表示する、にしても）通常のエ�
 マイクロソフト製（MS Officeのような）ではない、マイナーなファイルの場合、こんな場所にあったりします。
 
 #### PR
-<ad-text ad="regexp"></ad-text>
-
-<ad-link ad="regexp"></ad-link>
-<ad-link-box ad="audible"></ad-link-box>
+<ad-set :ad="'regexp'" />
 
 <link-to></link-to>

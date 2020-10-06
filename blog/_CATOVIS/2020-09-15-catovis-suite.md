@@ -56,7 +56,6 @@ MITライセンスで改変・再利用も自由です。
 
 どんどん使ってみてください！
 
-<ad-link ad="js"></ad-link>
-<ad-link-box ad="audible"></ad-link-box>
+<ad-set :ad="'js'" />
 
 <link-to></link-to>

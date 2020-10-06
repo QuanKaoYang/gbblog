@@ -37,9 +37,6 @@ ls -re -file | cp -d ../temp
 これなら一括置換マクロなども楽々実行できますね。
 
 #### PR
-<ad-text ad="ps"></ad-text>
-
-<ad-link ad="ps"></ad-link>
-<ad-link-box ad="audible"></ad-link-box>
+<ad-set :ad="'ps'" />
 
 <link-to></link-to>

@@ -204,10 +204,6 @@ Promise地獄になるのがいやだったので、とりあえず用語集読�
 一体何個のPromiseオブジェクトになるかな～……
 
 #### PR
-<ad-text ad="js"></ad-text>
-
-<ad-link ad="js"></ad-link>
-<ad-link ad="vue"></ad-link>
-<ad-link-box ad="audible"></ad-link-box>
+<ad-set :ad="'js'" :ad2="'vue'"/>
 
 <link-to></link-to>

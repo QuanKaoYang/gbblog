@@ -30,8 +30,6 @@ home: true
 - 2020/9/29
   [AmiVoiceで音声認識からSRTファイル作成まで](./pg/2020/09/29/amivoice-srt/)
 
-<timeline-box ></timeline-box>
-
 ## このサイトについて
 このサイトはOSSである[Vuepress](https://vuepress.vuejs.org/)と[Vuepress-plugin-blog](https://vuepress-plugin-blog.ulivz.com/)を使って作成しています。
 

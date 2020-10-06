@@ -55,9 +55,6 @@ location: Osaka
 ぜひ、お試しあれ！
 
 #### PR
-<ad-text ad="regexp"></ad-text>
-
-<ad-link ad="regexp"></ad-link>
-<ad-link-box ad="audible"></ad-link-box>
+<ad-set :ad="'regexp'" />
 
 <link-to></link-to>

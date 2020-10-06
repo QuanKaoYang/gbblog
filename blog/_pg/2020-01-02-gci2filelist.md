@@ -28,9 +28,6 @@ Get-ChildItem -File -Name > list.txt
 必要なファイル名と同じ名前をつけてしまわないように注意してください。
 
 #### PR
-<ad-text ad="ps"></ad-text>
-
-<ad-link ad="ps"></ad-link>
-<ad-link-box ad="audible"></ad-link-box>
+<ad-set :ad="'ps'" />
 
 <link-to></link-to>

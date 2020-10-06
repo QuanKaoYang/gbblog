@@ -16,9 +16,6 @@ Wordでは、Ctrl+上or下で、段落単位で移動できます。
 Shiftと組み合わせれば、選択範囲を広げることができるので、段落単位でのコピペが多いときに重宝します。
 
 #### PR
-<ad-text ad="word"></ad-text>
-
-<ad-link ad="word"></ad-link>
-<ad-link-box ad="audible"></ad-link-box>
+<ad-set :ad="'word'" />
 
 <link-to></link-to>

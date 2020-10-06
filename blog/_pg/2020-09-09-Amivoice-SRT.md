@@ -195,10 +195,6 @@ Davinci Resolveであれば、メディアプールからビデオトラック�
 ニューノーマル時代の字幕作成に幸あれ！
 
 #### PR
-<ad-text ad="py"></ad-text>
-
-<ad-link ad="py"></ad-link>
-<ad-link ad="py2"></ad-link>
-<ad-link-box ad="audible"></ad-link-box>
+<ad-set :ad="'py'" :ad2="'py2'" />
 
 <link-to></link-to>
