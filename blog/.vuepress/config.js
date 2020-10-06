@@ -1,5 +1,5 @@
 module.exports = {
-  theme: '@vuepress/blog',
+//  theme: '@vuepress/blog',
   title: 'ITブログ @ GB',
   description: 'ゴールデンブリッジのITやアプリケーション、各種ソフトウェア操作のノウハウを集めています',
   head: [
