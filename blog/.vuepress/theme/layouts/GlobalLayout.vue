@@ -55,11 +55,14 @@ export default {
   computed: {
     isHome() {
       return this.$frontmatter.home
-    }
+    },
+    isDesktopHome() {
+
+    },
   },
 
   mounted() {
-    console.log(this.$frontmatter)
+    // console.log(this.$frontmatter)
     this.$router.afterEach(() => {
       this.isMobileHeaderOpen = false
     })
@@ -71,30 +74,32 @@ export default {
 #vuepress-theme-blog__global-layout
   word-wrap break-word
 
-div#content-with-catovis
-  display grid
-  grid-template-columns 240px 1fr
+@media (min-width: $MQMobile)
+  &
+  div#content-with-catovis
+    display grid
+    grid-template-columns 240px 1fr
 
-div#catovis-content
-  grid-column 1/2
-  bottom 10px
-  right 10px
+  div#catovis-content
+    grid-column 1/2
+    bottom 10px
+    right 10px
 
-div#main-post
-  grid-column 2/3
+  div#main-post
+    grid-column 2/3
 
-div#content-with-twitter
-  display grid
-  grid-template-columns 0.7fr 0.3fr
+  div#content-with-twitter
+    display grid
+    grid-template-columns 0.7fr 0.3fr
 
-div#main-home
-  grid-column 1/2
+  div#main-home
+    grid-column 1/2
 
-div#twitter-content
-  grid-column 2/3
-  bottom 10px
-  right 10px
-  padding 6px 40px
+  div#twitter-content
+    grid-column 2/3
+    bottom 10px
+    right 10px
+    padding 6px 40px
 
 .content-wrapper
   padding 160px 15px 80px 15px
