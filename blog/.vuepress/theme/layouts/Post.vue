@@ -8,6 +8,7 @@
         :date="$frontmatter.date"
         :location="$frontmatter.location"
       />
+      
       <Content />
     </div>
     <Toc />

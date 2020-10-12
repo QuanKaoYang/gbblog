@@ -12,6 +12,11 @@
     >
       <a :href="`#${item.slug}`" :title="item.title">{{ item.title }}</a>
     </div>
+    <div style="padding-top: 1rem; padding-left: 2rem">
+    <a href="https://catovis.com" target="_blank">
+      <img src="/catovis-logo-with-title-v-rev.png" width="160px"/>
+    </a>
+    </div>
   </Sticker>
 </template>
 

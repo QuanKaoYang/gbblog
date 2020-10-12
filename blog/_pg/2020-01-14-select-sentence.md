@@ -86,6 +86,17 @@ PowerShellで環境変数のユーザー名を利用する方法は、
 調べてもなかなか情報はでてきませんが、「文書テンプレート」の追加ボタンからSTARTUPの場所が開かれます。
 ファイル選択ダイアログのパス部分をクリックして、ファイルパスを控えておきましょう。
 
+### 2020/10/12 追記
+
+PowerShellでWordのCOMオブジェクトを作って調べる方法がありました！
+```ps
+$wd = New-Object -ComObject "Word.Application"
+$startup = $wd.StartupPath
+Write-Host $startup
+$wd.Quit()
+[System.GC]::Collect()
+```
+
 ## もう一工夫
 さて、これでどのWordファイルでも **next_sentence** が呼び出せるようになりました。これなら効率も一気に向上……と残念ながらそうはいかず、図のようなエラーがでます。
 

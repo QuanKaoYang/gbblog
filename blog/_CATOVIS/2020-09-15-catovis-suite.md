@@ -3,7 +3,7 @@ title: 翻訳作業支援用Webアプリ CATOVIS SUITE公開中！
 date: 2020-09-15
 tags: 
     - catovis
-    - 効率化学
+    - 効率化
 author: 電氣羊 @ Goldenbridge
 location: Osaka
 ---
