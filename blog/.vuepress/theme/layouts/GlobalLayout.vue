@@ -74,7 +74,7 @@ export default {
 #vuepress-theme-blog__global-layout
   word-wrap break-word
 
-@media (min-width: $MQMobile)
+@media (min-width: 900px)
   &
   div#content-with-catovis
     display grid
