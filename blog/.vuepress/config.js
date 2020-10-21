@@ -5,12 +5,12 @@ module.exports = {
   head: [
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/yakuhanjp@3.0.0/dist/css/yakuhanrp.min.css' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/earlyaccess/mplus1p.css' }],
-    ['script',
-      {
-        'data-ad-client': 'ca-pub-8191791677165952',
-        'async src': 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
-      }
-    ],
+    // ['script',
+    //   {
+    //     'data-ad-client': 'ca-pub-8191791677165952',
+    //     'async src': 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+    //   }
+    // ],
   ],
   // body: [
   //   ['script',

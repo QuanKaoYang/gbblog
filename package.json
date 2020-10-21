@@ -9,6 +9,7 @@
     "vuepress": "^1.2.0"
   },
   "dependencies": {
+    "vue-meta": "^2.4.0",
     "vue-script2": "^2.1.0",
     "vuepress-plugin-sitemap": "^2.3.1"
   }

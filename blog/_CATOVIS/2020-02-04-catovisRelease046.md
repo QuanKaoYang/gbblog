@@ -2,6 +2,7 @@
 title: CATOVIS 0.4.6 リリース
 slug: catovis_002
 date: 2020-02-04
+update: 2020-08-30
 tags:
     - CATOVIS
 author: 電氣羊 @ Goldenbridge

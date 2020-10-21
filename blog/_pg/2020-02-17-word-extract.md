@@ -2,6 +2,7 @@
 title: Wordからテキストを抽出する
 slug: ps_006
 date: 2020-02-17
+update: 2020-10-13
 tags: 
     - PowerShell
     - 全文検索（エンタープライズサーチ）

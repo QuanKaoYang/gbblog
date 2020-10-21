@@ -2,6 +2,7 @@
 title: Wordで文ごとに選択
 slug: vba_001
 date: 2020-01-14
+update: 2020-10-12
 tags: 
     - Word
     - VBA

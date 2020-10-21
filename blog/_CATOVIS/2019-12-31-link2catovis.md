@@ -2,6 +2,7 @@
 title: オリジナルCATツール CATOVIS
 slug: catovis_001
 date: 2019-12-31
+update: 2020-08-30
 tags:
     - CATOVIS
 author: 電氣羊 @ Goldenbridge

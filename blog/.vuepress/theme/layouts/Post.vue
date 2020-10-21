@@ -19,11 +19,44 @@
 import PostMeta from '@theme/components/PostMeta.vue'
 import Toc from '@theme/components/Toc.vue'
 
+function createShcemaOrg(path, fm) {
+  console.log(fm)
+  return {
+    script: [
+      {
+        type: 'application/ld+json',
+        innerHTML: JSON.stringify(
+          {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://www.794562.xyz" + path
+            },
+            "headline": fm.title,
+            "description": fm.description,
+            "author": {
+              "@type": "Person",
+              "name": fm.author
+            },  
+            "datePublished": fm.date,
+            "dateModified": fm.update !== undefined ? fm.update : fm.date,
+          },
+          null, 2,
+        ),
+      },
+    ], 
+  }
+}
+
 export default {
   components: {
     PostMeta,
     Toc,
   },
+  metaInfo() {
+    return createShcemaOrg(this.$page.path, this.$frontmatter)
+  }
 }
 </script>
 
