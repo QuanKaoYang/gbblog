@@ -19,34 +19,46 @@
 import PostMeta from '@theme/components/PostMeta.vue'
 import Toc from '@theme/components/Toc.vue'
 
+const redirectList = {
+  '/column/2020/01/13/outlook-templocation/' : 'https://catovis.com/archives/350',
+  '/column/2020/01/07/select-paragraph/': 'https://catovis.com/archives/347',
+  '/column/2020/01/11/input-hlafspace/': 'https://catovis.com/archives/347',
+  '/column/2020/01/14/full2half/': 'https://catovis.com/archives/326'
+}
+
 function createShcemaOrg(path, fm) {
   console.log(fm)
-  return {
-    script: [
+  const script = []
+  script.push({
+    type: 'application/ld+json',
+    innerHTML: JSON.stringify(
       {
-        type: 'application/ld+json',
-        innerHTML: JSON.stringify(
-          {
-            "@context": "https://schema.org",
-            "@type": "BlogPosting",
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://www.794562.xyz" + path
-            },
-            "headline": fm.title,
-            "description": fm.description,
-            "author": {
-              "@type": "Person",
-              "name": fm.author
-            },  
-            "datePublished": fm.date,
-            "dateModified": fm.update !== undefined ? fm.update : fm.date,
-          },
-          null, 2,
-        ),
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.794562.xyz" + path
+        },
+        "headline": fm.title,
+        "description": fm.description,
+        "author": {
+          "@type": "Person",
+          "name": fm.author
+        },  
+        "datePublished": fm.date,
+        "dateModified": fm.update !== undefined ? fm.update : fm.date,
       },
-    ], 
+      null, 2,
+    ),
+  })
+
+  if (redirectList[path] !== undefined) {
+    script.push({
+      type: 'text/javascript',
+      innerHTML: `console.log('redirect');setTimeout(link(), 0);function link(){location.href='${redirectList[path]}';}`
+    })
   }
+  return { script }
 }
 
 export default {

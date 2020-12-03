@@ -2,6 +2,12 @@
 home: true
 ---
 
+<div style="background-color: red; color: white; padding: 5px">
+本ブログはコンテンツ集約の観点から、2020年中に順次 [CATOVIS](https://catovis.com) へと移行していきます。
+そのため、一部の記事には上記サイトへのリダイレクトが設定されています。
+あらかじめご留意ください。
+</div>
+
 # こちらITソリューション部
 ## @ ゴールデンブリッジ
 翻訳会社 ゴールデンブリッジの中の人です。

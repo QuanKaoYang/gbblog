@@ -8,4 +8,7 @@ export default ({
     isServer // is this enhancement applied in server-rendering or client
   }) => {
     Vue.use(VueMeta)
+    // router.addRoutes([
+    //   { path: '/catovis/2020/09/15/catovis-suite/', redirect: '/'}
+    // ])
   }
