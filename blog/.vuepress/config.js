@@ -21,6 +21,7 @@ module.exports = {
   dest: 'output/',
   port: 5000,
   plugins: [
+    '@vuepress/html-redirect',
     [
       '@vuepress/google-analytics',
       {
