@@ -23,7 +23,11 @@ const redirectList = {
   '/column/2020/01/13/outlook-templocation/' : 'https://catovis.com/archives/350',
   '/column/2020/01/07/select-paragraph/': 'https://catovis.com/archives/347',
   '/column/2020/01/11/input-hlafspace/': 'https://catovis.com/archives/347',
-  '/column/2020/01/14/full2half/': 'https://catovis.com/archives/326'
+  '/column/2020/01/14/full2half/': 'https://catovis.com/archives/326',
+  '/column/2020/01/08/find-edit-dialog/': 'https://catovis.com/archives/365',
+  '/column/2020/03/04/excel-ctrl-r':'https://catovis.com/archives/379',
+  '/pg/2020/01/02/gci2filelist': 'https://catovis.com/archives/387',
+  '/pg/2020/01/03/gci-cheatsheet': 'https://catovis.com/archives/409',
 }
 
 function createShcemaOrg(path, fm) {

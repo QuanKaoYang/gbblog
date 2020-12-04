@@ -10,6 +10,8 @@ author: 電氣羊 @ Goldenbridge
 location: Osaka
 ---
 
+<!-- リダイレクト設定済み -->
+
 あまり使われていないキーボード操作かもしれません。
 Wordでは、Ctrl+上or下で、段落単位で移動できます。
 
