@@ -26,6 +26,7 @@ const redirectList = {
   '/column/2020/01/14/full2half/': 'https://catovis.com/archives/326',
   '/column/2020/01/08/find-edit-dialog/': 'https://catovis.com/archives/365',
   '/column/2020/03/04/excel-ctrl-r/':'https://catovis.com/archives/379',
+  '/column/2020/02/21/editdistance/':'https://catovis.com/archives/434',
   '/pg/2020/01/02/gci2filelist/': 'https://catovis.com/archives/387',
   '/pg/2020/01/03/gci-cheatsheet/': 'https://catovis.com/archives/409',
   '/pg/2020/01/04/moving-file/': 'https://catovis.com/archives/417',
