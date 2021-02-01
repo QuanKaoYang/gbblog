@@ -31,7 +31,7 @@ const redirectList = {
   '/pg/2020/01/03/gci-cheatsheet/': 'https://catovis.com/archives/409',
   '/pg/2020/01/04/moving-file/': 'https://catovis.com/archives/417',
   '/pg/2020/01/01/rni-cheatsheet/': 'https://catovis.com/archives/419',
-  '/pg/2020/01/06/printall/': 'https://catovis.com/archives/430',
+  '/pg/2020/01/01/printall/': 'https://catovis.com/archives/430',
   '/pg/2020/03/06/padleft/': 'https://catovis.com/archives/432',
 }
 
