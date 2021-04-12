@@ -33,6 +33,8 @@ const redirectList = {
   '/pg/2020/01/01/rni-cheatsheet/': 'https://catovis.com/archives/419',
   '/pg/2020/01/01/printall/': 'https://catovis.com/archives/430',
   '/pg/2020/03/06/padleft/': 'https://catovis.com/archives/432',
+  '/column/2020/01/12/unoconv-docx2txt/':'https://catovis.com/archives/509',
+  '/pg/2020/02/17/word-extract/':'https://catovis.com/archives/509',
 }
 
 function createShcemaOrg(path, fm) {
